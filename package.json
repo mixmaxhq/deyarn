@@ -1,0 +1,21 @@
+{
+  "name": "yarn2npm",
+  "version": "0.0.0",
+  "description": "A command-line tool for converting projects that use Yarn to npm.",
+  "bin": "bin/yarn2npm.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spencer Brown <spencer@mixmax.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-mixmax": "^1.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "del": "^3.0.0",
+    "edit-json-file": "^1.0.8"
+  }
+}
