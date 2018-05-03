@@ -1,8 +1,8 @@
 {
-  "name": "yarn2npm",
+  "name": "deyarn",
   "version": "1.0.0",
   "description": "A command-line tool for converting projects that use Yarn to npm.",
-  "bin": "bin/yarn2npm.js",
+  "bin": "bin/deyarn.js",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

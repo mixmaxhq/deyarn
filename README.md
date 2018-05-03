@@ -1,4 +1,4 @@
-# `yarn2npm`
+# `deyarn`
 
 A command-line tool for converting projects that use `yarn` to `npm`.
 
@@ -7,7 +7,7 @@ we decided to switch back to `npm` is coming soon :).
 
 ## Procedure
 
-`yarn2npm`:
+`deyarn`:
 
 1. Checks out the `master` branch
 2. Pulls the latest changes
@@ -24,18 +24,18 @@ This conversion will likely involve the upgrading of some/many of your transitiv
 ## Installation
 
 ```sh
-$ npm install -g yarn2npm
+$ npm install -g deyarn
 ```
 or
 ```sh
-$ yarn global add yarn2npm
+$ yarn global add deyarn
 ```
 
 ## Usage
 
 (in the directory of the project to convert, which must be a Git repository)
 ```
-$ yarn2npm
+$ deyarn
 ```
 
 ## Contributing
