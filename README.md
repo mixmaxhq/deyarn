@@ -2,8 +2,7 @@
 
 A command-line tool for converting projects that use `yarn` to `npm`.
 
-The follow-up to [`npm2yarn`](https://github.com/mixmaxhq/npm2yarn). A blog post describing how
-we decided to switch back to `npm` is coming soon :).
+The follow-up to [`npm2yarn`](https://github.com/mixmaxhq/npm2yarn). See https://mixmax.com/blog/to-yarn-and-back-again-npm for motivation.
 
 ## Procedure
 
