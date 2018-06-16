@@ -27,6 +27,8 @@ $ yarn global add deyarn
 
 ## Usage
 
+(in the directory of the project to convert)
+
 ```
 $ deyarn
 ```
