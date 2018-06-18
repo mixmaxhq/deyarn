@@ -1,6 +1,6 @@
 {
   "name": "deyarn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command-line tool for converting projects that use Yarn to npm.",
   "bin": "bin/deyarn.js",
   "main": "src/index.js",
