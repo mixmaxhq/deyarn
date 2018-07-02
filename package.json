@@ -1,6 +1,6 @@
 {
   "name": "deyarn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A command-line tool for converting projects that use Yarn to npm.",
   "bin": "bin/deyarn.js",
   "main": "src/index.js",
@@ -16,6 +16,6 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "del": "^3.0.0",
-    "edit-json-file": "^1.0.8"
+    "edit-json-file": "acconrad/edit-json-file#master"
   }
 }
