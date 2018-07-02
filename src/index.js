@@ -51,7 +51,7 @@ module.exports = () => {
   const packageJson = editJsonFile(packageJsonPath, {
     autosave: true
   });
-  packageJson.set('engines.yarn', 'YARN NO LONGER USED - use npm instead.');
+  packageJson.unset('engines.yarn');
 
   // Output success.
 
