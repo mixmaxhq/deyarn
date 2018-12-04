@@ -52,6 +52,7 @@ module.exports = () => {
     autosave: true
   });
   packageJson.set('engines.yarn', 'YARN NO LONGER USED - use npm instead.');
+  packageJson.set('engines.npm', '>= 5.1');
 
   // Output success.
 
