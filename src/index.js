@@ -43,7 +43,8 @@ module.exports = () => {
   // Run `npm i`.
   console.log(chalk.blue('\nInstalling dependencies with npm; generating `package-lock.json`.'));
   spawnSync('npm', ['i'] /* empty args */, {
-    stdio: 'inherit'
+    stdio: 'inherit',
+    shell: true
   });
 
   // Require that users of this package use npm rather than Yarn since it's easy to forget :).
