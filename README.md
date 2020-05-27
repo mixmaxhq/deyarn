@@ -15,22 +15,30 @@ The follow-up to [`npm2yarn`](https://github.com/mixmaxhq/npm2yarn). See https:/
 
 This conversion will likely involve the upgrading of some/many of your transitive dependencies, so make sure to test thoroughly! :)
 
+## Quick Start
+
+You can use deyarn via [npx](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) to quickly convert a project without needing to install deyarn first. Just run the following command in your project directory:
+
+```sh
+npx deyarn
+```
+
+_Note: The directory must be a Git repository._
+
+## Alternative Usage
+
+Alternatively you can install deyarn globally (see below) and then run `$ deyarn` in your project directory instead.
+
 ## Installation
 
 ```sh
-$ npm install -g deyarn
+npm install -g deyarn
 ```
+
 or
+
 ```sh
-$ yarn global add deyarn
-```
-
-## Usage
-
-(in the directory of the project to convert)
-
-```
-$ deyarn
+yarn global add deyarn
 ```
 
 ## Contributing
